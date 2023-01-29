@@ -1,0 +1,98 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero {
+    background-image: url(images/praha.jpg);
+    background-size: cover;
+    padding: 80px 0 80px 0;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#welcome_word {
+    background: #F1FAEE;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#welcome_desc {
+    background: #A8DADC;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.activities {
+    background: #ddb892;
+    margin: 0;
+    padding: 20px 0px;
+    font-family: 'Unbounded', cursive;
+}
+
+.all_activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.one_activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 50px 0 50px;
+    width: 600px;
+}
+
+#img_activities {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#act_h4 {
+    margin-bottom: 0;
+}
+
+.guide {
+    background: #c9a227;
+    margin: 50px auto;
+    padding: 10px 0;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 4px solid #A8DADC;
+    font-family: 'Unbounded', cursive;
+}
+
+.avatar {
+    width: 130px;
+}
+
+#guide_description {
+    isplay: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 200px;
+}
